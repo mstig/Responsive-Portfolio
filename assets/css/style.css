@@ -200,3 +200,132 @@ footer {
 .float-clear {
     clear:both;
 }
+
+
+
+
+/* ********************************************** */
+/* Media query checks for responsive portfolio below */
+/* ********************************************** */
+
+@media screen and (max-width: 980px) {
+    #mainBox {
+         float:left;
+        margin-left: 30px;
+        width: 760px;
+        margin-top: 15px;
+    }
+
+    #spacer {
+        width: 715px;
+    }
+
+    #myPic {
+        height: 154px;
+        width: 106px;
+    }
+
+    #myName {
+        margin-left:30px;
+        height: 103px;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 18px;
+    }
+
+    #headerText {
+        width: 100%;
+        height: 80px;
+        float: left;
+    }
+
+    #links {
+        float: right;
+        margin-right: 20px;
+    }
+
+    #myName {
+        font-size: 85%;
+        width: 33%;
+        float: left;
+    }
+
+    .contentTitle {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #headerText {
+        width: 100%;
+        margin-right: 15px;
+    }
+
+    #myName {
+        float: left;
+        font-size: 85%;
+        width: 230px;
+    }
+
+    #links {
+        font-size: 80%;
+    }
+
+    #mainBox {
+        width: 90%;
+        margin: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #spacer {
+        width: 94%;
+        margin:0%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    /* only changing style for my name and links for minimum size */
+    #myName {
+        width: 100%;
+        margin: 0px;
+        clear: both;
+        text-align: center;
+        vertical-align: center;
+        padding: 0px;
+        height: 60px;
+        font-size: 75%;
+    }
+
+    #links {
+        clear:both;
+        text-align: center;
+        vertical-align: center;
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+        font-size: 75%;
+    }
+
+    #header {
+        height: 110px;
+    }
+
+
+ /* previous CSS change for 768 frame are % based and scale with smaller screen */
+ /* added overflow to avoid pushing text outside of the box frame */
+    #mainBox {
+        overflow-x: auto;
+    }
+
+    .contentTitle {
+        font-size: 20px;
+    }
+ 
+
+
+}
