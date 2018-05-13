@@ -178,8 +178,8 @@ footer {
 
 .portfolio-image {
     position: relative;
+    margin-top: 10px;
     margin-right: 20px;
-    margin-bottom: 10px;
     float: left;
 
 }
@@ -209,13 +209,14 @@ footer {
 /* ********************************************** */
 
 @media screen and (max-width: 980px) {
-    #mainBox {
+    #mainBox, #mainBox-portfolio {
          float:left;
         margin-left: 30px;
         width: 760px;
         margin-top: 15px;
     }
 
+   
     #spacer {
         width: 715px;
     }
@@ -271,7 +272,7 @@ footer {
         font-size: 80%;
     }
 
-    #mainBox {
+    #mainBox, #mainBox-portfolio {
         width: 90%;
         margin: 0px;
         margin-left: 5%;
@@ -318,12 +319,23 @@ footer {
 
  /* previous CSS change for 768 frame are % based and scale with smaller screen */
  /* added overflow to avoid pushing text outside of the box frame */
-    #mainBox {
+    #mainBox, #mainBox-portfolio{
         overflow-x: auto;
+        overflow-y: auto;
     }
 
     .contentTitle {
         font-size: 20px;
+    }
+
+    .portfolio-image {
+        float: none;
+        clear: both;
+        margin: auto;
+        margin-top: 10px;
+        width: 200px;
+
+       
     }
  
 
