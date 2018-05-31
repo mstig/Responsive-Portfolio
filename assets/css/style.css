@@ -180,24 +180,12 @@ footer {
     position: relative;
     margin-top: 10px;
     margin-right: 20px;
+    
     float: left;
 
 }
 
 .project-name{
-    
-    font-size: 75%;
-    width: 200px;
-    color: white;   
-    background-color: #4aaaa5;
-    position: absolute; 
-    top: 85px; 
-    left: 0px; 
-    text-align: center;
-
-}
-
-.project-name-one{
     font-size: 75%;
     width: 200px;
     color: white;   
